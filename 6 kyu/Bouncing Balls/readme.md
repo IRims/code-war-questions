@@ -36,4 +36,5 @@ def bouncing_ball(h, bounce, window):
         count+=2
         h*=bounce
     return count
-    ```
+   
+```

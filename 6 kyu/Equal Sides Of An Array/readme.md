@@ -35,8 +35,10 @@ def find_even_index(arr):
         if left == total:return i
         left += num
     return -1
-    ```
+    
+```
 
+and 
 
 ```
 def find_even_index(arr):

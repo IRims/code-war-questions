@@ -16,8 +16,9 @@ Example: (input --> output)
 
 ## Solution:
 ### SQL:
-
+```
 SELECT 
     dna AS dna,
    UPPER(REPLACE(REPLACE(REPLACE(REPLACE(dna, 'A', 't'), 'T', 'a'), 'C', 'g'), 'G', 'c')) AS res
 FROM dnastrand;
+```

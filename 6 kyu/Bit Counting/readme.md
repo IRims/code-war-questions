@@ -5,6 +5,9 @@ Example: The binary representation of `1234` is `10011010010`, so the function s
 ## Solution:
 ### Python:
 
-```def count_bits(n):
-    return (str(bin(n).replace("0b", ""))).count('1')```
+```
+def count_bits(n):
+    return (str(bin(n).replace("0b", ""))).count('1')
+
+```
 

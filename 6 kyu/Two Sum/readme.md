@@ -9,7 +9,8 @@ The input will always be valid (numbers will be an array of length 2 or greater,
 Based on: https://leetcode.com/problems/two-sum/
 ```
 two_sum([1, 2, 3], 4) # returns (0, 2) or (2, 0)
-two_sum([3, 2, 4], 6) # returns (1, 2) or (2, 1)```
+two_sum([3, 2, 4], 6) # returns (1, 2) or (2, 1)
+```
 ## Solution:
 ### C#:
 ```
